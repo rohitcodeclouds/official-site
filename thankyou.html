@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plateful</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+<link rel="stylesheet" type="text/css" href="css/thankyou.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+
+<link rel="preload" href="css/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="css/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="css/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="css/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="css/RedHatDisplay-Black.woff2" as="font" type="font/woff2" crossorigin>
+
+<script>
+function getDate(days) {      
+	var monthNames = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+	var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");    
+	var now = new Date();   
+	now.setDate(now.getDate() + days);   
+	var nowString =  monthNames[now.getMonth()] + " " +  now.getDate() + ", " + now.getFullYear();   
+	document.write(nowString); 
+	}
+</script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <img src="images/logo.webp" alt="Logo"  class="logo">
+            <ul class="stp-list">
+                <li>Checkout</li>
+                <li>Special Offers</li>
+                <li>Order Receipt</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="ty-bnr">
+        <div class="container">
+            <h3 class="ty-bnr-hd">Congratulations! <br class="hide-desk">Your Order Is Confirmed!</h3>
+            <p class="ty-bnr-txt">Your Order Will Be Processed & Shipped Shortly!</p>
+            
+            <div class="ty_inner">
+            	<!------------------>
+            	<div class="ty_top_section">
+                	<p class="ty_top_heading">Complete Your <br class="hide-desk">Toxin-Free Kitchen</p>
+                    <p class="ty_top_sub_heading">Hand-picked essentials designed to protect your health and elevate every meal.</p>
+                    
+                    <div class="ty_shop_box">
+                    	<div class="toy_shop_col">
+                        	<div class="shop_pord_box">
+                            	<img src="images/product-gray.png" alt="" class="check-prod mat-prod check-prod1">
+                            </div>
+                            
+                            <div class="shop_col_content">
+                            	<p class="prod_name">Smart Warming Mat</p>
+                                <p class="pord_love_customer"><img src="images/star.png" class="star" alt="">2,600 Reviews</p>
+                                <div class="prod_price_row">
+                                	<p class="prod_price pricecut"><span>$39.00</span></p>
+                                    <p class="prod_price pricenow">$33.00 </p>
+                                </div>
+                            </div>
+                            
+                            <div class="mat_color_row_select">
+                                <div class="color_select_field">
+                                	<div class="mat_color_num">Color</div>
+                                    <div class="selct-colorbx">
+                                        <div class="color-chooseHdng color-tog">
+                                            <p class="color1"><span style="border:1px solid #000; background:#a6acb0;"></span>Gray</p>
+                                        </div>
+                                            
+                                        <div class="color-drower" style="display: none;">
+                                            <ul class="colorname-list list1">
+                                                <li data-color="gray"><p class="color1"><span></span>Gray</p></li>
+                                                <li data-color="royal"><p class="color2"><span></span>Royal</p></li>
+                                                <li data-color="sand"><p class="color3"><span></span>Sand</p></li>
+                                            </ul>
+                                         </div>
+                                     </div>
+                                </div>
+                                
+                                <div class="select_quty">
+                                	<div class="mat_color_num">Qty</div>
+                                    <select class="pord_quantity">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                    </select>
+                                 </div>
+                            </div>
+                            
+                            <button class="add_to_cart"><img src="images/cart_icon.webp" class="cart_icon" alt="icon"><span>Add to cart</span></button>
+                        </div>
+                        
+                        <div class="toy_shop_col">
+                        	<div class="shop_pord_box">
+                            	<img src="images/product-small.png" alt="" class="shop_prod board-prod board-prod1">
+                            </div>
+                            
+                            <div class="shop_col_content">
+                            	<p class="prod_name">Plateful Cutting Board&trade;</p>
+                                <p class="pord_love_customer"><img src="images/star.png" class="star" alt="">4,200 Reviews</p>
+                                <div class="prod_price_row">
+                                	<p class="prod_price pricecut"><span>$23.00</span></p>
+                                    <p class="prod_price pricenow">$19.00 </p>
+                                </div>
+                            </div>
+                            
+                            <div class="mat_color_row_select">
+                            	<div class="color_select_field">
+                                	<div class="mat_color_num">Size</div>
+                                    <select class="select_size select_size1">
+                                        <option selected="" value="small">Small - 4"x6"</option>
+                                        <option value="medium">Medium - 10"X14" (+$10)</option>
+                                        <option value="large">Large - 7"X23" (+$20)</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="select_quty">
+                                	<div class="mat_color_num">Qty</div>
+                                    <select class="pord_quantity">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                    </select>
+                                 </div>
+                            </div>
+                            
+                            <button class="add_to_cart"><img src="images/cart_icon.webp" class="cart_icon" alt="icon"><span>Add to cart</span></button>
+                        </div>
+                        
+                        <div class="toy_shop_col">
+                        	<div class="shop_pord_box">
+                            	<img src="images/product-lid.png" alt="" class="shop_prod">
+                            </div>
+                            
+                            <div class="shop_col_content">
+                            	<p class="prod_name">Titanium Pan Lid</p>
+                                <p class="pord_love_customer"><img src="images/star.png" class="star" alt="">3,400 Reviews</p>
+                                <div class="prod_price_row">
+                                	<p class="prod_price pricecut"><span>$23.00</span></p>
+                                    <p class="prod_price pricenow">$20.00 </p>
+                                </div>
+                            </div>
+                            
+                            <div class="mat_color_row_select">
+                                <div class="select_quty select_qutylid">
+                                	<div class="mat_color_num">Quantity</div>
+                                    <select class="pord_quantity">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                    </select>
+                                 </div>
+                            </div>
+                            
+                            <button class="add_to_cart"><img src="images/cart_icon.webp" class="cart_icon" alt="icon"><span>Add to cart</span></button>
+                        </div>
+                        
+                        <div class="toy_shop_col">
+                        	<div class="shop_pord_box">
+                            	<img src="images/product-lid.png" alt="" class="shop_prod">
+                            </div>
+                            
+                            <div class="shop_col_content">
+                            	<p class="prod_name">Titanium Pan Lid</p>
+                                <p class="pord_love_customer"><img src="images/star.png" class="star" alt="">3,400 Reviews</p>
+                                <div class="prod_price_row">
+                                	<p class="prod_price pricecut"><span>$23.00</span></p>
+                                    <p class="prod_price pricenow">$20.00 </p>
+                                </div>
+                            </div>
+                            
+                            <div class="mat_color_row_select">
+                                <div class="select_quty select_qutylid">
+                                	<div class="mat_color_num">Quantity</div>
+                                    <select class="pord_quantity">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                    </select>
+                                 </div>
+                            </div>
+                            <button class="add_to_cart"><img src="images/cart_icon.webp" class="cart_icon" alt="icon"><span>Add to cart</span></button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <!------------------>
+                <div class="ty-sec-heading"><span>Order Summary</span></div>
+                
+                <div class="summry-container">
+                    
+                    <div class="thnk-odrnmbr">
+                        <p class="thnk-odrtxt1">Order Number: <br class="hide-desk"><span>0016578</span></p>
+                        <p class="thnk-odrtxt2">Order Date : <br class="hide-desk"><span><script type="text/javascript">getDate(0);</script></span></p>
+                    </div>
+                    
+                    <div class="ty-odr-smryBox">
+                        <div class="ty-heading-row">
+                            <div class="ty-col-1">Product</div>
+                            <div class="ty-col-3">Qty.</div>
+                            <div class="ty-col-4">Price</div>
+                        </div>
+                        
+                        <div class="ty-prod-row">
+                            <div class="ty-col-1">
+                                <span class="ty-prodbx"><img src="images/sumry-prod.png"></span>
+                                <p class="ty-prd-name">The Pure Titanium Pan™</span></p>
+                            </div>
+                            <div class="ty-col-3">1</div>
+                            <div class="ty-col-4">$119</div>
+                        </div>
+                        
+                        <div class="ty-prod-row">
+                            <div class="ty-col-1">
+                                <span class="ty-prodbx"><img src="images/plateful-lid.png"></span>
+                                <p class="ty-prd-name">Plateful Pan Lid</p>
+                            </div>
+                            <div class="ty-col-3">1</div>
+                            <div class="ty-col-4"><span>FREE</span></div>
+                        </div>
+                        
+                        <div class="ty-prod-row">
+                            <div class="ty-col-1">
+                                <span class="ty-prodbx"><img src="images/cooking-guid.png"></span>
+                                <p class="ty-prd-name">6 Expert guides for<br class="hide-mob"> home cooking</p>
+                            </div>
+                            <div class="ty-col-3">1</div>
+                            <div class="ty-col-4"><span>FREE</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="priceFlds">
+                        <div class="prc-row"><p>Sub Total:</p> <span>$119</span></div>
+                        <div class="prc-row"><p>Shipping &amp; Handling:</p> <span class="green">FREE</span></div>
+                        <div class="prc-row total"><p>Total:</p> <span>$119</span></div>
+                    </div>
+                    
+                    <div class="billing-strip">The charge will appear on your billing statement as "PLATEFUL" </div>
+                    
+                </div>
+                
+                <!------------------>
+                <div class="ty_book_section">
+                	<p class="ty_top_heading">Your Free Cooking Guides <br>Are Ready to Download</p>
+                    <p class="ty_top_sub_heading">As a thank-you for upgrading your kitchen, we’ve included our complete 6-part <br class="hide-mob">Healthy Cooking Guide Series — yours free, today only.</p>
+                    
+                    <div class="ty_ebook_row ty_ebook_row1">
+                    	<div class="ty_ebook_box">
+                        	<img src="images/bonus-product1.webp" class="bonus-product">
+                        </div>
+                        
+                        <div class="ty_ebook_content">
+                            <p class="ebookno1">eBook #1</p>
+                            <p class="ebookName">Your Complete Guide to Break Free from Ultra-Processed Foods</p>
+                            <p class="ebookAbout">Spot hidden ultra-processed ingredients and make affordable whole-food swaps.</p>
+                            <a href="#" class="ebook_download">Download Now<img src="images/download_icon.png" class="download_icon" alt=""></a>
+                        </div>
+                    </div>
+                    
+                    <div class="ty_ebook_row">
+                    	<div class="ty_ebook_box">
+                        	<img src="images/bonus-product2.webp" class="bonus-product">
+                        </div>
+                        
+                        <div class="ty_ebook_content">
+                            <p class="ebookno1">eBook #2</p>
+                            <p class="ebookName">The Ultimate Guide to Anti-Inflammatory Cooking with Healing Spices</p>
+                            <p class="ebookAbout">Discover nature’s most potent anti-inflammatory (and delicious) spice combos.</p>
+                            <a href="#" class="ebook_download">Download Now<img src="images/download_icon.png" class="download_icon" alt=""></a>
+                        </div>
+                    </div>
+                    
+                    <div class="ty_ebook_row">
+                    	<div class="ty_ebook_box">
+                        	<img src="images/bonus-product3.webp" class="bonus-product">
+                        </div>
+                        
+                        <div class="ty_ebook_content">
+                            <p class="ebookno1">eBook #3</p>
+                            <p class="ebookName">Quick & Healthy Meals: Blue Zone Secrets for Busy Lives</p>
+                            <p class="ebookAbout">Learn the 20 powerhouse foods linked to longer life and more energy.</p>
+                            <a href="#" class="ebook_download">Download Now<img src="images/download_icon.png" class="download_icon" alt=""></a>
+                        </div>
+                    </div>
+                    
+                    <div class="ty_ebook_row">
+                    	<div class="ty_ebook_box">
+                        	<img src="images/bonus-product4.webp" class="bonus-product">
+                        </div>
+                        
+                        <div class="ty_ebook_content">
+                        	<p class="ebookno1">eBook #4</p>
+                            <p class="ebookName">Effortless Fat-Burning Kitchen: Transform Your Metabolism with Smart Food Combinations</p>
+                            <p class="ebookAbout">Discover secrets like the best time to eat and the exact food combos that melt fat.</p>
+                            <a href="#" class="ebook_download">Download Now<img src="images/download_icon.png" class="download_icon" alt=""></a>
+                        </div>
+                    </div>
+                    
+                    <div class="ty_ebook_row">
+                    	<div class="ty_ebook_box">
+                        	<img src="images/bonus-product5.webp" class="bonus-product">
+                        </div>
+                        
+                        <div class="ty_ebook_content">
+                        	<p class="ebookno1">eBook #5</p>
+                            <p class="ebookName">Traditional Healing Foods & Back-to-Basics Kitchen Wisdom</p>
+                            <p class="ebookAbout">Master ancient healing foods like simmered bone broths and probiotic fermentations.</p>
+                            <a href="#" class="ebook_download">Download Now<img src="images/download_icon.png" class="download_icon" alt=""></a>
+                        </div>
+                    </div>
+                    
+                    <div class="ty_ebook_row">
+                    	<div class="ty_ebook_box">
+                        	<img src="images/bonus-product6.webp" class="bonus-product">
+                        </div>
+                        
+                        <div class="ty_ebook_content">
+                        	<p class="ebookno1">eBook #6</p>
+                            <p class="ebookName">Anti-Aging Nutrition Guide: Cook Your Way to Younger Skin & Energy</p>
+                            <p class="ebookAbout">Eat your way to radiant skin, boundless energy, and a younger-feeling body.</p>
+                            <a href="#" class="ebook_download">Download Now<img src="images/download_icon.png" class="download_icon" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!------------------>
+                
+                <div class="thnk-Addressinfo">
+                    <div class="ty-lft-Address">
+                        <div class="sh-heading">Shipping Info</div>
+                        <ul class="user-info">
+                            <li><span>First Name:</span> Lorem </li>
+                            <li><span>Last Name:</span>Ipsum</li>
+                            <li><span>Address:</span> 123, Church Street</li>
+                            <li><span>City:</span> Mississippi</li>
+                            <li><span>State:</span> CA</li>
+                            <li><span>Zip Code:</span> 2311441</li>
+                            <li><span>Phone:</span> 1-XXX-XXX-XXXX</li>
+                            <li><span>Email:</span> name@companyname.com</li>
+                        </ul>
+                    </div>
+                    <div class="ty-rgt-Address">
+                        <div class="sh-heading">Billing Info</div>
+                        <ul class="user-info">
+                            <li><span>First Name:</span> Lorem </li>
+                            <li><span>Last Name:</span>Ipsum</li>
+                            <li><span>Address:</span> 123, Church Street</li>
+                            <li><span>City:</span> Mississippi</li>
+                            <li><span>State:</span> CA</li>
+                            <li><span>Zip Code:</span> 2311441</li>
+                            <li><span>Phone:</span> 1-XXX-XXX-XXXX</li>
+                            <li><span>Email:</span> name@companyname.com</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <ul class="custmr-service-list">
+                    <li>
+                        <img src="images/custmr-srvc-ico1.png">
+                        <p>Customer<br>Service</p>
+                    </li>
+                    <li>
+                        <img src="images/custmr-srvc-ico2.png">
+                        <p>Free <br>Shipping</p>
+                    </li>
+                    <li>
+                        <img src="images/custmr-srvc-ico3.png">
+                        <p>Satisfaction<br>Guranteed</p>
+                    </li>
+                    <li>
+                        <img src="images/custmr-srvc-ico4.png">
+                        <p>Hassle-Free<br>Returns</p>
+                    </li>
+                </ul>
+                
+                <div class="help-Box">
+                    <p class="help-txt1"><img src="images/ty-hlp-ic.png"></p>
+                    <p class="help-txt2">Questions? We're Here To Help</p>
+                    <ul>
+                        <li><img src="images/ty-msg-ic.png"><p>Email Us<br><a href="mailto:hello@plateful.co">hello@plateful.co</a></p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <img src="images/logo.webp" class="footer__logo" alt="Logo">
+            <p class="ftr-txt"><a href="#" class="ftr-lnks">Terms of Use</a> | <a href="#" class="ftr-lnks">Privacy Policy</a> | <a href="#" class="ftr-lnks">Contact Us</a></p>
+            <p class="ftr-txt">&copy; <script>document.write(new Date().getFullYear())</script> Plateful. All Rights Reserved.</p>
+        </div>
+    </div>
+    
+    
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	
+	
+	$('.ty_shop_box').slick({
+		slidesToShow:3,
+		slidesToScroll: 1,
+		arrows: true,
+		fade: false,
+		autoplay: false,
+		dots: true,
+		variableWidth: true,
+		centerMode: false,
+		responsive: [
+			{
+				breakpoint: 1021,
+				settings:{slidesToShow:2, slidesToScroll: 1,}
+			},
+			{
+				breakpoint: 767,
+				settings:{slidesToShow:1, slidesToScroll: 1,centerMode: true,}
+			}
+		]
+	})
+	
+
+	$('[class^="select_size"]').on('change', function () {
+	  const match = $(this).attr('class').match(/select_size(\d+)/);
+	  if (match) {
+		const index = match[1]; // 1, 2, 3...
+		const selSize = $(this).val();
+		$(this).closest('.toy_shop_col')
+			   .find('.board-prod' + index)
+			   .attr('src', 'images/product-' + selSize + '.png');
+	  }
+	});
+	
+	$('.color-tog').click(function(e) {
+		$('.color-drower').slideUp();
+		if ( $(this).next('.color-drower').is(':visible')){
+			$(this).next('.color-drower').slideUp();
+		}else{
+			$(this).next('.color-drower').slideDown();
+		}
+		
+		 event.stopPropagation();
+	});
+	
+	$(document).click(function(e) {
+        $('.color-drower').slideUp();
+    });
+	
+	
+	$('.colorname-list li').click(function(e) {
+		$(this).closest('.color-drower').slideUp();
+		$(this).closest('.selct-colorbx').find('.color-tog').html($(this).html());
+	});
+	
+	
+	// One delegated handler for everything inside .colorname-list
+	$('.colorname-list').on('click', 'li', function () {
+	  var color = $(this).data('color');                 // e.g. "navy"
+	  //var $box  = $(this).closest('.selectBox');         // same product group
+	
+	  // Find the list number (1, 2, 3 …) from the parent <ul> class
+	  const match = $(this).parent().attr('class').match(/list(\d+)/);
+	  if (match) {
+		$(this).closest('.toy_shop_col').find('.check-prod' + match[1])                // .check-prod1 / 2 / 3
+			.attr('src', 'images/product-' + color + '.png');
+	  }
+	});
+
+
+	$('.add_to_cart').click(function(e){
+		$(this).addClass('active');
+		$(this).find('.cart_icon').attr('src','images/btn_check.webp');
+		$(this).find('span').text('Added to cart');
+	});
+	
+});
+    
+</script>    
+</body>
+</html>
